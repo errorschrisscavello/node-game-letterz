@@ -8,15 +8,81 @@ To start the game download the source. You must have Node.js installed!
 
 Navigate to the root directory of Letterz
 
-`cd PATH/TO/LETTERZ`
+`$ cd PATH/TO/LETTERZ`
 
 Then you must link Letterz to Node.js by running:
 
-`npm link`
+`$ npm link`
 
 You may unlink Letterz at any time by running this from the Letterz directory:
 
-`npm unlink`
+`$ npm unlink`
+
+Once Letterz is linked to Node.js you may run it from any directory!
+
+# How to use
+
+Start Letterz
+
+`$ letterz`
+
+`=> `
+
+	-----------------------------------------------
+	LL             tt    tt                        
+	LL        eee  tt    tt      eee  rr rr  zzzzz 
+	LL      ee   e tttt  tttt  ee   e rrr  r   zz  
+	LL      eeeee  tt    tt    eeeee  rr      zz   
+	LLLLLLL  eeeee  tttt  tttt  eeeee rr     zzzzz 
+	-----------------------------------------------
+
+	Quick guide:
+
+	To find words with letterz enter the command 'letterz' followed by a series of unique letters.
+	After you execute the command, letterz will search a library of over 100,000 english words and return the words that could be spelled ONLY with the letters you provided!
+	Cool huh?!
+
+	Bonus points if you can find a series of letters that:
+		1. Is the shortest
+		2. Is the longest
+		3. Spells the least words
+		4. Spells the most words
+		5. Returns a group of words with the least overall characters
+		6. Returns a group of words with the most overall characters
+	Enjoy and good luck!
+
+	- Bideo Wego
+
+	http://bideowego.com
+
+Pass Letterz a string of characters to get results/score
+
+`$ letterz asdf`
+
+`=> `
+
+	-----------------------------------------------
+	LL             tt    tt                        
+	LL        eee  tt    tt      eee  rr rr  zzzzz 
+	LL      ee   e tttt  tttt  ee   e rrr  r   zz  
+	LL      eeeee  tt    tt    eeeee  rr      zz   
+	LLLLLLL  eeeee  tttt  tttt  eeeee rr     zzzzz 
+	-----------------------------------------------
+	Your search status: Success
+
+	Congratulations! Your letters can be used to spell 1 words!
+
+	Your original letters: asdf
+
+	Matched the following words: fads
+
+	Bonuses: 
+		Whoot! Special prize! 'adfs' is a group of letters with the least possible word matches!
+
+
+	Scoring: ((Total number of characters) 4 * (Number of words)) 1 * (Total bonus points) 2 = (Total points) 8
+	Total Points: 8
+	--------------------------
 
 # About Letterz
 
