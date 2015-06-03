@@ -1,0 +1,15 @@
+{
+  "name": "letterz",
+  "version": "1.0.0",
+  "description": "A fun little module and command-line tool that finds words given a set of letters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "author": "Bideo Wego <bideowego@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  }
+}
